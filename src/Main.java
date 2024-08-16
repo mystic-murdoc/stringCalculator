@@ -77,7 +77,7 @@ public class Main {
         String secondWord3 = arr3[2];
         int crossIndex = firstWord3.indexOf(arr3[3]);
         if (crossIndex >= 0) {
-            System.out.println("\"" + firstWord3.substring(0,crossIndex) + "\"");
+            System.out.println("\"" + firstWord3.substring(0,crossIndex) + firstWord3.substring(crossIndex + arr3[3].length()) + "\"");
         } else System.out.println("\"" + firstWord3 + "\"");
     }
 
